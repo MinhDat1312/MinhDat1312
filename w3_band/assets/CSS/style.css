@@ -15,6 +15,7 @@ html {
     right: 0px;
     height: 46px;
     background-color: black;
+    z-index: 1;
 }
 
 #nav {
@@ -87,7 +88,26 @@ html {
 }
 
 #slider {
+    position: relative;
     margin-top: 46px;
-    height: 2000px;
-    background-color: #ccc; 
+    padding-top: 50%;
+    background: url('/w3_band/assets/Image/chicago.jpg') top center / cover no-repeat;
+}
+
+#slider .text-slider {
+    position: absolute;
+    bottom: 46px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+#slider .text-heading {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#slider .text-content {
+    padding-top: 25px;
+    font-size: 15;
 }
