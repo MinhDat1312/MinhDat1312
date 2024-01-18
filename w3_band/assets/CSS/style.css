@@ -1,0 +1,93 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 46px;
+    background-color: black;
+}
+
+#nav {
+    display: inline-block;
+}
+
+#nav > li {
+    display: inline-block;
+}
+
+#nav li {
+    position: relative;
+}
+
+#nav > li > a {
+    color: white;
+    text-transform: uppercase;
+}
+
+#nav li a {
+    padding:0px 24px;
+    line-height: 46px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#nav .sub-nav {
+    position: absolute;
+    top: 100%;
+    min-width: 160px;
+    background-color: white;
+    list-style-type: none;
+    box-shadow: 0 0 12px rgba(0,0,0,0.5);
+    display: none;
+}
+
+#nav li:hover .sub-nav {
+    display: block;
+}
+
+#nav .sub-nav li:hover,
+#nav > li:hover > a {
+    color: black;
+    background-color: #ccc;
+}
+
+#nav .sub-nav a {
+    line-height: 38px;
+    color: black;
+    padding: 0px 16px;
+}
+
+#nav .circle_down {
+    font-size: 14px;
+}
+
+#header .btn_search {
+    line-height: 46px;
+    float: right;
+}
+
+#header .btn_search:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+#header .search {
+    padding: 0px 21px;
+    color: white;
+}
+
+#slider {
+    margin-top: 46px;
+    height: 2000px;
+    background-color: #ccc; 
+}
