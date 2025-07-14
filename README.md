@@ -3,12 +3,10 @@
 
 - 🎓 I’m currently studying at Industrial University of Ho Chi Minh City
 - 🌱 I’m currently learning **Testing, Docker**
-
+- 🎯 My goal is to become a Java Backend Developer, and I’m eager to grow in a professional programming environment where I can continuously improve my skills and contribute to real-world projects.
 - 💬 Ask me about **React, Java**
-
-- 📫 How to reach me **nguyenthangdat84@gmail.com**
-
 - ⚡ Fun fact **You'll probably find me watching football. I'm always learning, always building and always up for a good challenge.**
+- 📫 How to reach me **nguyenthangdat84@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
